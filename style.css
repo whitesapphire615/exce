@@ -128,10 +128,9 @@ nav.scrolled {
         text-align: center;
 
         .part {
-            min-height: 100vh;
             opacity: 0;
             transform: translateY(20px);
-            transition: all 0.8s ease;
+            transition: all 1s ease;
         }
         .part.show {
             opacity: 1;
