@@ -143,6 +143,15 @@ nav.scrolled {
             scroll-margin-top: 150px;
             min-height:400px;
             margin-bottom: 100px;
+            img {
+                    width: 220px;
+                    height: 220px;
+                    border-radius: 50%;
+                    margin: 20px;
+                    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+                    border: 1px solid #ffffff;
+                    float: left;
+                }
         }
         .hi {
             font-size: clamp(2.5rem, 5vw, 4rem);
@@ -187,21 +196,13 @@ nav.scrolled {
         }
 
         .about {
+
             scroll-margin-top: 70px;
-            padding-bottom: 100px;
+            padding-bottom: 70px;
             .about-content {
                 .desc {
                     margin-top: 20px;
                     text-align: justify;
-                }
-                img {
-                    width: 180px;
-                    height: 180px;
-                    border-radius: 50%;
-                    margin: 20px;
-                    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
-                    border: 1px solid #ffffff;
-                    float: right;
                 }
             }
         }
