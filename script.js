@@ -83,3 +83,16 @@ window.addEventListener("resize", () => {
   canvas.height = window.innerHeight;
   startParticles();
 });
+
+
+const elements = document.querySelectorAll('.part');
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
+    }
+  });
+});
+
+elements.forEach(el => observer.observe(el));

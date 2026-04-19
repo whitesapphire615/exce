@@ -129,6 +129,13 @@ nav.scrolled {
 
         .part {
             min-height: 100vh;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.8s ease;
+        }
+        .part.show {
+            opacity: 1;
+            transform: translateY(0);
         }
         .home {
             display: flex;
